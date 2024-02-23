@@ -1,38 +1,186 @@
-.App {
-  text-align: center;
+body{
+  padding:0 ;
+  margin: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/*THE NAV SECTION*/
+
+.activeLink{
+  color: red;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+.navbar-brand{
+  color: red;
+  font-size: 2rem;
+  padding-left: 2rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.navbar{
+  background-color: rgb(19, 18, 18);
+  border-top: 10px solid white;
+}
+
+.nav-link{
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.nav-item{
+  margin-right: 3rem;
+  font-size: 1.1rem;
+  padding-bottom: 2rem;
+}
+        /*Progress section*/
+
+.container1{
+   background-color: rgb(39, 34, 34);  
+  
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+
+.top1{
+  color: white;
+  padding-bottom: 5rem;
+  text-align: center;
+  padding-top: 19rem;
+ 
+}
+.top1 h1{
+    font-size: 5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+    /*THE BEST SECTION*/
+
+.container2 p{
+  text-align: start;
+}   
+
+.offers{
+  text-align: center;
+}
+
+.container2 h2{
+  text-align: center;
+}
+
+.heading{
+  padding: 1rem 1rem;
+  background-color: white;
+  color: black;
+}    
+
+.container2{
+   padding: 5rem 5rem;
+   background-color: rgb(240, 67, 67);
+   color: white;
+}
+
+.bestImage{
+  margin-top: 5rem;
+}
+
+h4{
+  text-align: center;
+  font-weight: 700;
+  
+}
+
+/*THE WHAT OUR SERVICE*/
+
+.container3{
+  background-color: rgb(17, 15, 15);
+  padding: 5rem 5rem;
+}
+
+
+.container3 h2{
+  text-align: center;
+}
+
+.services{
+  text-align: center;
+  color: rgb(103, 100, 100);
+}
+
+.container3 h2{
+  color: white;
+  font-size: 3rem;
+}
+
+.container3 p{
+  color: rgb(103, 100, 100);
+  text-align: start;
+
+}
+
+.container3 h3{
+  color: white;
+  font-size: 2rem;
+}
+
+.what{
+  padding: 3rem 1rem;
+}
+
+
+
+/*FITNESS STUDIO*/
+
+.container4{
+  padding: 5rem 5rem;
+  background-color: rgb(23, 22, 22);
+  color: rgb(109, 107, 107);
+  
+}
+
+.container4 h2{
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 500;
+}
+
+.container4 p{
+  text-align: start;
+}
+.studio{
+  text-align: center;
+  margin-bottom: 3rem;
+  padding: 1rem;
+
+}
+
+ul{
+  margin-top: 3rem;
+}
+
+button{
+  margin-top: 2.5rem;
+  color: rgb(219, 208, 208);
+  background-color: red;
+}
+
+
+       /*Footer*/
+
+.container5{
+  padding: 2rem 5rem;
+  background-color: rgb(19, 18, 18);
+  color: rgb(109, 107, 107);
+  height: 4y0vh;
+}
+
+.container5 ol{
+  list-style-type: none;
+  text-align: start;
+  padding-right: 5rem;
+}
+
+.container5 h5{
+  color: white;
+  padding-bottom: 1rem;
 }
