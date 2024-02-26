@@ -1,16 +1,10 @@
 
-
-const About =()=>{
+const Aboutus =()=>{
     return(
-        <div className="col-12 col-md-6">
-        <h2>This is the ABOUT US page</h2>
-        </div>
+        <h1>This is the about page</h1>
     )
-
-
-
 
 }
 
 
-export default About;
+export default Aboutus;

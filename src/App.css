@@ -1,186 +1,233 @@
-body{
-  padding:0 ;
+body {
+  padding: 0;
   margin: 0;
   box-sizing: border-box;
   overflow-x: hidden;
-
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 /*THE NAV SECTION*/
 
-.activeLink{
+.navbar-brand {
   color: red;
+  font-size: 1.9rem;
+  padding-left: 2rem;
+  font-weight: 600;
 }
 
-
-.navbar-brand{
-  color: red;
-  font-size: 2rem;
+.head{
+  margin-left: 17rem;
+}
+.head ul li{
   padding-left: 2rem;
 }
-
-.navbar{
+.navbar {
   background-color: rgb(19, 18, 18);
   border-top: 10px solid white;
 }
 
-.nav-link{
+.nav-link {
   color: white;
 }
 
-.nav-item{
-  margin-right: 3rem;
+.nav-item {
+  /* margin-right: 3rem; */
   font-size: 1.1rem;
-  padding-bottom: 2rem;
-}
-        /*Progress section*/
-
-.container1{
-   background-color: rgb(39, 34, 34);  
-  
+  padding-bottom: 1rem;
 }
 
 
 
-.top1{
+
+/*Progress section*/
+.container1 {
+  position: relative;
+}
+
+.container1 img {
+  min-height: 32rem;
+  width: 100%;
+}
+
+.text-overlay {
+  position: absolute;
+  top: 80%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  text-align: center;
   color: white;
-  padding-bottom: 5rem;
-  text-align: center;
-  padding-top: 19rem;
- 
-}
-.top1 h1{
-    font-size: 5rem;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-    /*THE BEST SECTION*/
-
-.container2 p{
-  text-align: start;
-}   
-
-.offers{
-  text-align: center;
-}
-
-.container2 h2{
-  text-align: center;
-}
-
-.heading{
-  padding: 1rem 1rem;
-  background-color: white;
-  color: black;
-}    
-
-.container2{
-   padding: 5rem 5rem;
-   background-color: rgb(240, 67, 67);
-   color: white;
-}
-
-.bestImage{
-  margin-top: 5rem;
-}
-
-h4{
-  text-align: center;
-  font-weight: 700;
+  width: 100%;
+  align-items: start;
   
+}
+
+.text-overlay h2 {
+  font-size: 5rem;
+  font-weight: 800;
+
+}
+
+.text-overlay p{
+  font-size: 1.5rem;
+  font-weight: 300;
+  padding-right: 5rem;
+
+}
+/*THE BEST SECTION*/
+
+.aero {
+  margin-top: 2rem;
+}
+
+.offers {
+  text-align: center;
+}
+
+.container2 h2 {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.card-header {
+  text-align: center;
+  color: white;
+  font-weight: 800;
+  background-color: rgb(231, 84, 84);
+  font-size: 2rem;
+}
+
+.container2 {
+  padding: 5rem 5rem;
+  background-color: rgb(231, 84, 84);
+  color: white;
 }
 
 /*THE WHAT OUR SERVICE*/
 
-.container3{
+.container3 {
   background-color: rgb(17, 15, 15);
   padding: 5rem 5rem;
 }
 
-
-.container3 h2{
+.cardio,
+.consult {
+  margin-bottom: 4rem;
+}
+.container3 h2 {
   text-align: center;
 }
 
-.services{
+.services {
   text-align: center;
   color: rgb(103, 100, 100);
 }
 
-.container3 h2{
+.container3 h2 {
   color: white;
   font-size: 3rem;
 }
 
-.container3 p{
+.container3 p {
   color: rgb(103, 100, 100);
   text-align: start;
-
 }
 
-.container3 h3{
+.container3 h3 {
   color: white;
   font-size: 2rem;
 }
 
-.what{
+.what {
   padding: 3rem 1rem;
 }
 
-
-
 /*FITNESS STUDIO*/
 
-.container4{
+.container4 {
   padding: 5rem 5rem;
   background-color: rgb(23, 22, 22);
   color: rgb(109, 107, 107);
-  
 }
 
-.container4 h2{
+ul {
+  list-style-type: none;
+  margin-top: 2rem;
+  align-items: flex-start;
+  padding: 0;
+}
+
+.container4 ul li {
+  padding: 0;
+}
+.container4 h2 {
   text-align: center;
   font-size: 3rem;
   font-weight: 500;
 }
 
-.container4 p{
+.container4 p {
   text-align: start;
 }
-.studio{
+.studio {
   text-align: center;
   margin-bottom: 3rem;
   padding: 1rem;
-
 }
 
-ul{
-  margin-top: 3rem;
-}
-
-button{
+button {
   margin-top: 2.5rem;
   color: rgb(219, 208, 208);
   background-color: red;
 }
 
+@media only screen and (max-width: 812px) {
+  .chestman {
+    margin-top: 20px;
+  }
+  .text-overlay {
+    padding-left: 7rem;
+  }
 
-       /*Footer*/
+  .text-overlay h2{
+    font-size: 3rem;
+  }
+  .text-overlay p{
+    font-size: 1rem;
+    padding-left: 3rem;
+  }
 
-.container5{
+}
+
+/*Footer*/
+
+.container5 {
   padding: 2rem 5rem;
   background-color: rgb(19, 18, 18);
   color: rgb(109, 107, 107);
-  height: 4y0vh;
+  min-height: 40vh;
 }
 
-.container5 ol{
+.container5 ol {
   list-style-type: none;
-  text-align: start;
-  padding-right: 5rem;
+  padding: 0;
 }
 
-.container5 h5{
+.container5 h5 {
   color: white;
   padding-bottom: 1rem;
+}
+
+.latest {
+  display: inline-block;
+}
+
+.links li {
+  margin-bottom: 6px;
+}
+
+/*container*/
+
+.one {
+  text-align: center;
 }
