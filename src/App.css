@@ -3,7 +3,7 @@ body {
   margin: 0;
   box-sizing: border-box;
   overflow-x: hidden;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 /*THE NAV SECTION*/
@@ -11,16 +11,16 @@ body {
 .navbar-brand {
   color: red;
   font-size: 1.9rem;
-  padding-left: 2rem;
+  /* padding-left: 2rem; */
   font-weight: 600;
 }
 
-.head{
+/* .head{
   margin-left: 17rem;
 }
 .head ul li{
   padding-left: 2rem;
-}
+} */
 .navbar {
   background-color: rgb(19, 18, 18);
   border-top: 10px solid white;
@@ -181,10 +181,33 @@ button {
   background-color: red;
 }
 
-@media only screen and (max-width: 812px) {
+
+/* ***************************************************media query********************************************* */
+
+@media(max-width:768px){
+  .expertise{
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .solution{
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .late{
+    margin-top: 20px;
+  }
+
   .chestman {
     margin-top: 20px;
   }
+
+
+   .head li{
+    padding-right: 20rem;
+  } 
+
   .text-overlay {
     padding-left: 7rem;
   }
@@ -198,8 +221,12 @@ button {
   }
 
 }
+/* @media only screen and (max-width: 812px) {
+  
 
-/*Footer*/
+} */
+
+                          /*Footer*/
 
 .container5 {
   padding: 2rem 5rem;
@@ -231,3 +258,10 @@ button {
 .one {
   text-align: center;
 }
+
+
+
+
+
+
+

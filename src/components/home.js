@@ -188,7 +188,7 @@ const Home =()=>{
 
 
 
-                <div className="container5"> 
+                {/*<div className="container5"> 
                     <div className="row">
 
                         <div className="col-12 col-md-3">
@@ -245,7 +245,7 @@ const Home =()=>{
                      </div>
 
 
-                 </div>
+                 </div>*/}
                 
                 
                 

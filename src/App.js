@@ -7,6 +7,7 @@ import GALLERY from './components/gallery';
 import PRICING from './components/pricing';
 import CONTACT from './components/contact';
 import { Routes, Route } from 'react-router-dom';
+import Footer from './components/footer';
 
 
 function App() {
@@ -20,10 +21,8 @@ function App() {
             <Route path="/GALLERY" element={<GALLERY/>}/>
             <Route path="/PRICING" element={<PRICING/>}/>
             <Route path="/CONTACT" element={<CONTACT/>}/>
-
-
-
         </Routes>
+        <Footer/>
       
     </div>
   );
