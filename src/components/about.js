@@ -135,7 +135,7 @@ const Aboutus =()=>{
                     <div className='col-12 col-md-4'>
                                 <h3 style={{color:'white'}}>Features</h3>
                        <div className="card text">
-                             <div className="card-header" style={{display:'flex', textAlign:'center',fontSize:'1.1rem',gap:'2rem' ,backgroundColor:'white', color:'green', height:'rem'}}>
+                             <div className="card-header test" style={{fontSize:'1.1rem' ,backgroundColor:'white', color:'green', height:'rem'}}>
                                   <p>TEST 1</p> 
                                   <p>TEST 2</p> 
                                   <p>TEST 3</p> 
